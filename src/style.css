@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #282D35; /* Temporary solution */
+    font-family: 'Inter', sans-serif; /* Applies to all classes! */
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 91px;
+    padding: 30px 25px;
+}
+
+.nav--image_text, .nav--title{
+    margin: 0;
+}
+
+.nav--icon {
+    height: 30px;
+    margin-right: 7px;
+}
+
+.nav--image_text {
+    font-weight: 700;
+    color: #61DAFB;
+    font-size: 22px;
+    
+}
+
+.nav--title {
+    margin-left: auto;
+    font-weight: 600;
+    color: #DEEBF8;
+}
+
+/* Main Components */
+
+main {
+    padding: 20px 0px;
+    height: 460px;
+    color: #FFFFFF;
+}
+
+.main--header {
+    font-weight: 700;
+    padding: 0px 27px;
+    letter-spacing: -0.05em;
+}
+
+.main--list {
+    font-weight: 400;
+    max-width: 400px;
+}
+
+.main--list > li {
+    padding-block: 10px;
+    line-height: 19px;
+}
