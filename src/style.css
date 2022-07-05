@@ -46,6 +46,9 @@ main {
     padding: 20px 0px;
     height: 460px;
     color: #FFFFFF;
+    background-image: url(./images/Group.png);
+    background-repeat: no-repeat;
+    background-position: right 100px;
 }
 
 .main--header {
